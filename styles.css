@@ -13,8 +13,8 @@ body {
   height: 40px;
   border-radius: 50%;
   border: 2px solid rgb(0, 0, 0);
-  background-color: #2e2d5ea0;
-  overflow: hidden; /* Ensures child elements do not exceed container bounds */
+  background-color: #7471ff56;
+  overflow: hidden;
 }
 
 .background-circle {
@@ -35,7 +35,7 @@ body {
   width: 90%;
   height: 100%;
   transform: translate(-50%, -50%) scale(0);
-  animation: grow 2s 1s forwards, rotateY 2s 3s forwards; /* Added delay to animations */
+  animation: grow 2s 1s forwards, rotateY 2s 3s forwards;
 }
 
 @keyframes shrink {
